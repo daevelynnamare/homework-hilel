@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@700&display=swap');
+
+      .first,
+      .second,
+      .third {
+        font-family: "Roboto";
+        background-color: gray;
+      margin: 50px;
+        color: white; 
+      }
+      .clearfix{
+        clear: both;
+    }
+
+.first-block-1,
+.first-block-2,
+.second-block-1,
+.third-block-1,
+.third-block-2,
+.third-block-3,
+.third-block-4{
+    font-size: 64px;
+   text-align: center;
+    padding: 68px;
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+       
+}
+.second-block-2,
+.second-block-3,
+.second-block-4,
+.second-block-5{
+    margin-left: 15px;
+    float: left;
+    font-size: 36px;
+    text-align: center;
+    padding: 32px;
+    width: 100px;
+    height: 100px;
+    background-color: coral;  
+}
+
+
+.first-block-1{
+float: left;
+}
+.first-block-2{
+    float: right;
+}
+
+.second-block-1{
+    float: left;
+}
+
+.sub-second{
+    float: right;
+    
+}
+.sub-third-1{
+    float: left;
+}
+.sub-third-2{
+    float: right;
+}
+
+.third-block-1,
+.third-block-2{
+    float: left;
+    margin-right: 15px;
+}
+
+.third-block-3,
+.third-block-4{
+    float: left;
+    margin-left: 15px;
+}
