@@ -7,8 +7,8 @@ body{
     max-width: 1200px;
 }
 
-header,
-main{
+.header,
+.main{
     background-color: #EEEFF1;
 }
 
@@ -16,7 +16,7 @@ main{
     background-color: #F9F9F9;
 }
 .projects-section,
-footer{
+.footer{
     background-color: #34547A;
 }
 
