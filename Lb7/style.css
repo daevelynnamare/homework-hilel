@@ -39,6 +39,14 @@ body{
     margin-right: 42px;
 }
 
+.home-link::before{
+    content:url(./icons/home-icon.svg);
+}
+
+.author-link::before{
+    content: url(./icons/user-icon.png);
+}
+
 .active-link{
     color: #34547A;
     font-weight: 500;
