@@ -41,17 +41,33 @@ body{
 
 .home-link::before{
     content:url(./icons/home-icon.svg);
+    margin-right: 4px;
 }
 
 .author-link::before{
-    content: url(./icons/user-icon.png);
+    content: url(./icons/user-icon.svg);
+    margin-right: 4px;
+}
+
+.works-link::before{
+    content: url(./icons/work-icon.svg);
+    margin-right: 4px;
+}
+
+.process-link::before{
+    content: url(./icons/process-icon.svg);
+    margin-right: 4px;
+}
+
+.contacts-link::before{
+    content: url(./icons/contacts-icon.svg);
+    margin-right: 4px;
 }
 
 .active-link{
     color: #34547A;
     font-weight: 500;
 }
-
 
 .heading-first{
     font-size: 48px;
