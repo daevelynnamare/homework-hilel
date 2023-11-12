@@ -3,45 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dudeshape</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <nav class="navigation container">
-        <img class="nav-logo" src="#" alt="Not found" />
-        <ul class="nav-list nav-texts">
-          <li class="nav-point"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-point"><a class="nav-link" href="#">Products</a></li>
-          <li class="nav-point"><a class="nav-link" href="#">About Us</a></li>
-          <li class="nav-point"><a class="nav-link" href="#">Contact Us</a></li>
-        </ul>
-        <ul class="nav-list nav-icons">
-          <li class="nav-point-icon">
-            <a class="nav-link-icon" href="#"
-              ><img
-                class="nav-link-icon-img"
-                src="./icons/profile-icon.png"
+    <header class="header">
+      <div class="wrapper-nav container">
+        <nav class="navigation flex-nav">
+          <img class="nav-logo" src="./img/logo.png" alt="Not found" />
+          <ul class="nav-list nav-texts">
+            <li class="nav-point"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-point"><a class="nav-link" href="#">Products</a></li>
+            <li class="nav-point"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-point">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="nav-list nav-icons">
+            <li class="nav-point-icon">
+              <a class="nav-link-icon" href="#"
+                ><img
+                  class="nav-link-icon-img"
+                  src="./icons/profile-icon.png"
+                  alt="#"
+              /></a>
+            </li>
+            <li class="nav-point-icon">
+              <a class="nav-link-icon" href="#"
+                ><img
+                  class="nav-link-icon-img"
+                  src="./icons/cart-icon.png"
+                  alt="#"
+              /></a>
+            </li>
+            <li class="nav-point-icon">
+              <a class="nav-link-icon" href="#"
+                ><img
+                  class="nav-link-icon-img"
+                  src="./icons/burger-icon.png"
+                  alt="#"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="wrapper-head">
+        <div class="head-content container">
+          <h1 class="heading-head">
+            Get Your Best Cosmetic <br />
+            Products Here
+          </h1>
+          <p class="paragraph-head">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+          </p>
+          <form class="head-form" name="head-form" action="#">
+            <input
+              value="Submit..."
+              class="head-input"
+              form="head-form"
+              type="text"
+            />
+            <button class="head-button" type="submit" form="head-form">
+              <img
+                class="search-input-icon-img"
+                src="./icons/search-input-icon.png"
                 alt="#"
-            /></a>
-          </li>
-          <li class="nav-point-icon">
-            <a class="nav-link-icon" href="#"
-              ><img
-                class="nav-link-icon-img"
-                src="./icons/cart-icon.png"
-                alt="#"
-            /></a>
-          </li>
-          <li class="nav-point-icon">
-            <a class="nav-link-icon" href="#"
-              ><img
-                class="nav-link-icon-img"
-                src="./icons/burger-icon.png"
-                alt="#"
-            /></a>
-          </li>
-        </ul>
-      </nav>
+              />
+            </button>
+          </form>
+          <a class="head-shop-button" href="#">Shop Now</a>
+        </div>
+      </div>
     </header>
+    <main>
+      <div class="flexbox-partners container">
+        <img class="partners-img" src="./img/Airbnb Logo.png" alt="#" />
+        <img class="partners-img" src="./img/Hubspot Logo.png" alt="#" />
+        <img class="partners-img" src="./img/Google Logo.png" alt="#" />
+        <img class="partners-img" src="./img/Microsoft Logo.png" alt="#" />
+        <img class="partners-img" src="./img/Walmart Logo.png" alt="#" />
+        <img class="partners-img" src="./img/FedEx Logo.png" alt="#" />
+      </div>
+      <div class="pop-wrapper-flex container">
+        <div class="pop-article">
+          <h1 class="heading-pop">Our Popular Product</h1>
+          <p class="paragraph-pop">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+          </p>
+        </div>
+        <a class="discover-but" href="#"
+          ><ins>Discover Our Products</ins
+          ><img class="arrow-icon" src="./icons/arrow-icon.png" alt="#"
+        /></a>
+        <div class="card-pop">
+          <img class="pop-img" src="./img/pump-bottle-02 1.png" alt="#" />
+          <div class="card-pop-title">
+            <h2 class="card-pop-heading">Cosmetic products</h2>
+            <p class="pop-card-paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+            </p>
+          </div>
+          <div class="card-pop-buttons">
+            <a class="card-pop-buy-b" href="#">Buy Now</a>
+            <a class="card-pop-cart-b" href="#">Add To Cart</a>
+            <h6 class="pop-price">120$</h6>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
