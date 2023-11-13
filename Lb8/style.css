@@ -94,13 +94,12 @@ body{
 }
 
 .head-shop-button{
-    text-align: center;
-    color: white;
-    font-size: 18px;
+  display: inline-block;
+    color: #FFFFFF;
     background-color: #402F2C;
-    padding: 16px 0px;
-    max-width: 148px;
-    display: block;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 
@@ -120,6 +119,18 @@ body{
 
 .pop-wrapper-flex{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 130px;
+}
+
+.pop-article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 .heading-pop{
@@ -134,7 +145,7 @@ body{
     line-height: 32px;
 }
 
-.discover-but{
+.discover-button{
     color: #222222;
     font-size: 24px;
     font-weight: 500;
@@ -142,3 +153,204 @@ body{
 .arrow-icon{
     margin-left: 8px;
 }
+
+.card-pop{
+    display: flex;
+    flex-direction: column;
+    max-width: 580px;
+}
+
+
+.card-pop-title{
+    border: #E3E0DF 1px solid;
+    border-top: 0px;
+    padding: 32px;
+    padding-top: 20px;
+    }
+
+.card-pop-heading{
+    color: #222222;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.card-pop-paragraph{
+    color: #555555;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.card-pop-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-pop-buy{
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #402F2C;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 24px;
+}
+
+.card-pop-cart{
+    display: inline-block;
+    color: #402F2C;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 18px;
+    border: #BAB3B0 1px solid;
+}
+
+.pop-price{
+    color: #222222;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+/* Feedback section */
+
+
+.wrapper-feedback{
+    background-color: #FDF8F5;
+}
+
+.feedback-section{
+    padding: 58px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.feed-number{
+    margin: 0 auto;
+    max-width: fit-content;
+    font-size: 56px;
+    color: #222222;
+    font-weight: 700;
+    padding-bottom: 4px;
+    border-bottom: #222222 3px solid;
+}
+
+.feed-desc{
+    font-size: 24px;
+    color: #555555;
+    margin-top: 30px;
+}
+
+/* Last section */
+
+.last-section-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+    margin-bottom: 130px;
+}
+
+.card-last-one{
+    display: flex;
+    gap: 32px;
+}
+
+.card-last-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.card-one-head{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.card-one-par{
+    color: #555555;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.last-shop-button{
+    max-width: 148px;
+      color: #FFFFFF;
+      background-color: #402F2C;
+      padding: 16px 32px;
+      font-weight: 500;
+      font-size: 18px;
+  }
+
+  .card-last-img{
+    max-width: 600px;
+  }
+
+
+  /* Second card styles */
+.card-last-two{
+    display: flex;
+    gap: 32px;
+}
+
+.card-last-title-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-last-stars{
+    max-width: 168px;
+}
+  .card-two-head{
+    font-size: 30px;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 12px;
+  }
+
+  .mini-designer{
+    margin-bottom: 120px;
+  }
+
+  .card-two-par{
+    color: #555555;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+
+
+/* Footer content */
+
+.footer{
+    background-color: #FAFAFA;
+}
+
+.subscribe-flex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #DDDDDD 1px solid;
+    padding: 60px 0px;
+}
+
+.subscribe-head{
+    font-size: 36px;
+    font-weight: 500;
+    color: #222222;
+}
+.footer-button__text{
+background-color: #402F2C;
+font-size: 14px;
+font-weight: 500;
+padding: 10px 20px;
+}
+
+
