@@ -1,0 +1,17 @@
+.container {
+  max-width: 1200;
+  margin: 0 auto;
+}
+
+.header__paragraph {
+  font-size: 24px;
+  color: #eded1c;
+  background-color: #328fa8;
+}
+
+.header__paragraph_2 {
+  background-color: #9dd48a;
+  color: #f2a41d;
+  font-size: 48px;
+  margin-top: 40px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+@import "./variable.scss";
+
+
+@mixin theme($backgground-color: #9dd48a, $font-color: #f2a41d, $font-big: 48px,){
+background-color: $backgground-color ;
+color: $font-color ;
+font-size: $font-big ;
+}
+
+
+.container{
+    max-width: 1200;
+    margin: 0 auto;
+}
+
+.header__paragraph{
+    font-size: $parag-font-size;
+    color: $paragraph-font-color;
+    background-color: $paragraph-backg;
+}
+
+.header__paragraph_2{
+    @include theme;
+    margin-top: 40px;
+}
