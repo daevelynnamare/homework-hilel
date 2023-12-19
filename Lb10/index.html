@@ -10,55 +10,301 @@
   <body>
     <header class="header">
       <div class="header__wrapper-nav">
-        <nav class="navigation header__navigation container">
+        <nav class="header__navigation navigation container">
+          <div class="navigation__side">
+            <button class="navigation__side-burger" type="menu">
+              <img
+                class="navigation__side-burger-img"
+                src="./icons/menu-burger.png"
+                alt="#"
+              />
+            </button>
+            <ul class="navigation__side-list">
+              <li class="navigation__side-item">
+                <a href="#" class="navigation__side-link">HOME</a>
+              </li>
+              <li class="navigation__side-item">
+                <a href="#" class="navigation__side-link">WORK</a>
+              </li>
+              <li class="navigation__side-item">
+                <a href="#" class="navigation__side-link">CONTACT</a>
+              </li>
+              <li class="navigation__side-item">
+                <ul class="navigation__side-item-list">
+                  <li class="navigation__side-item-socials">
+                    <a
+                      href=""
+                      class="navigation__side-link_socials navigation__side-link_socials-facebook"
+                      ><img
+                        src="./icons/facebook-icon.png"
+                        alt="#"
+                        class="navigation__side-link_socials-img"
+                    /></a>
+                  </li>
+                  <li class="navigation__side-item-socials">
+                    <a
+                      href=""
+                      class="navigation__side-link_socials navigation__side-link_socials-twitter"
+                      ><img
+                        src="./icons/twitter-icon.png"
+                        alt="#"
+                        class="navigation__side-link_socials-img"
+                    /></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
           <div class="navigation__left">
             <a href="#" class="navigation__logo"
-              ><img src="./img/Logo.png" alt="#" class="header-logo-img"
+              ><img src="./img/Logo.png" alt="#" class="navigation__logo-img"
             /></a>
-            <ul class="navigation__list">
-              <li class="navigation__point">
-                <a href="#" class="navigation__link navigation__link_active"
-                  >HOME</a
-                >
+            <ul class="navigation__content">
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">HOME</a>
               </li>
-              <li class="navigation__point">
+              <li class="navigation__item">
                 <a href="#" class="navigation__link">WORK</a>
               </li>
-              <li class="navigation__point">
+              <li class="navigation__item">
                 <a href="#" class="navigation__link">CONTACT</a>
               </li>
             </ul>
           </div>
-          <div class="navigation__right">
-            <ul class="navigation__list">
-              <li class="navigation__point">
-                <a href="#" class="navigation__link"
-                  ><img
-                    src="./icons/facebook-icon.png"
-                    alt="#"
-                    class="link-facebook"
-                /></a>
-              </li>
-              <li class="navigation__point">
-                <a href="#" class="navigation__link"
-                  ><img
-                    src="./icons/twitter-icon.png"
-                    alt="#"
-                    class="link-twitter"
-                /></a>
-              </li>
-            </ul>
-          </div>
+          <ul class="navigation__socials">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link"
+                ><img
+                  src="./icons/facebook-icon.png"
+                  alt="#"
+                  class="navigation__link-img"
+              /></a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link"
+                ><img
+                  src="./icons/twitter-icon.png"
+                  alt="#"
+                  class="navigation__link-img"
+              /></a>
+            </li>
+          </ul>
         </nav>
       </div>
-      <div class="header__wrapper-title container">
-        <h1 class="header__heading_level-1">WE KEEP THINGS CLEAN AND SIMPLE</h1>
-        <hr class="header__underline" />
-        <p class="header__paragraph">
-          So clean you’ll go crazy wondering why it’s so clean.
-        </p>
-        <a href="#" class="button header__button">SEE OUR WORK</a>
+      <!-- NAVIGATION -->
+      <div class="header__wrapper">
+        <div class="header__title container">
+          <h1 class="header__heading_level-1">
+            WE KEEP THINGS <br />
+            CLEAN AND SIMPLE
+          </h1>
+          <div class="header__underline"></div>
+          <p class="header__paragraph">
+            So clean you’ll go crazy wondering why it’s so clean.
+          </p>
+          <a href="#" class="header__button">SEE OUR WORK</a>
+          <ul class="header__pagination pagination">
+            <li class="pagination__item pagination__item_active">
+              <a href="#" class="pagination__link"></a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link"></a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link"></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
+    <main class="main">
+      <!-- PROCESS TOP -->
+      <div class="main__process-top process-top">
+        <div class="process-top__cardholder container">
+          <div class="process-top__card process-top__card_research card">
+            <p class="card__card-number">001</p>
+            <div class="card__underline"></div>
+            <h4 class="card__process-name">RESEARCH</h4>
+            <img
+              src="./img/research_img.png"
+              alt="Not Found"
+              class="card__process-image"
+            />
+            <p class="card__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              sapiente consectetur illo!
+            </p>
+          </div>
+          <div class="process-top__card process-top__card_build card">
+            <p class="card__card-number">002</p>
+            <div class="card__underline"></div>
+            <h4 class="card__process-name">BUILD</h4>
+            <img
+              src="./img/build_img.png"
+              alt="Not Found"
+              class="card__process-image"
+            />
+            <p class="card__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              sapiente consectetur illo!
+            </p>
+          </div>
+          <div class="process-top__card process-top__card_optimize card">
+            <p class="card__card-number">003</p>
+            <div class="card__underline"></div>
+            <h4 class="card__process-name">OPTIMIZE</h4>
+            <img
+              src="./img/optimize_img.png"
+              alt="Not Found"
+              class="card__process-image"
+            />
+            <p class="card__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              sapiente consectetur illo!
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- PROCESS BOTTOM -->
+      <div class="main__process-bottom process-bottom">
+        <div class="process-bottom__title container">
+          <p class="process-bottom__paragraph">
+            The design process, at its best, integrates the aspirations of art,
+            science, and culture.
+          </p>
+          <div class="process-bottom__underline"></div>
+        </div>
+      </div>
+      <!-- MAIN TEAM -->
+      <div class="main__team-section team-section">
+        <div class="team-section__cardholder container">
+          <h2 class="team-section__heading_level-2">THE TEAM</h2>
+          <div class="team-section__card team-section__card_first card">
+            <img
+              src="./img/person-1.png"
+              alt="Not found"
+              class="card__person-img"
+            />
+            <div class="card__title">
+              <p class="card__person-name">Peter Walkin</p>
+              <p class="card__person-position">Founder</p>
+            </div>
+            <div class="card__soc-media">
+              <img
+                src="./icons/facebook-icon_2.png"
+                alt="#"
+                class="card__soc-media-img"
+              />
+              <img
+                src="./icons/twitter-icon_2.png"
+                alt="#"
+                class="card__soc-media-img"
+              />
+              <img
+                src="./icons/linkedin-icon.png"
+                alt="#"
+                class="card__soc-media-img"
+              />
+            </div>
+          </div>
+          <div class="team-section__card team-section__card_second card">
+            <img
+              src="./img/person-2.png"
+              alt="Not found"
+              class="card__person-img"
+            />
+            <div class="card__title">
+              <p class="card__person-name">Robert Porter</p>
+              <p class="card__person-position">Developer</p>
+            </div>
+            <div class="card__soc-media">
+              <img
+                src="./icons/facebook-icon_2.png"
+                alt="#"
+                class="card__soc-media-img"
+              />
+              <img
+                src="./icons/twitter-icon_2.png"
+                alt="#"
+                class="card__soc-media-img"
+              />
+              <img
+                src="./icons/linkedin-icon.png"
+                alt="#"
+                class="card__soc-media-img"
+              />
+            </div>
+          </div>
+          <div class="team-section__card team-section__card_third card">
+            <img
+              src="./img/person-3.png"
+              alt="Not found"
+              class="card__person-img"
+            />
+            <div class="card__title">
+              <p class="card__person-name">Dina Johnson</p>
+              <p class="card__person-position">Designer</p>
+            </div>
+            <div class="card__soc-media">
+              <img
+                src="./icons/twitter-icon_2.png"
+                alt="#"
+                class="card__soc-media-img"
+              />
+              <img
+                src="./icons/behance-icon.png"
+                alt="#"
+                class="card__soc-media-img"
+              />
+              <img
+                src="./icons/media-icon.png"
+                alt="#"
+                class="card__soc-media-img"
+              />
+              <img
+                src="./icons/insta-icon.png"
+                alt="#"
+                class="card__soc-media-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FEEDBACK SECTION -->
+      <div class="main__feedback-section feedback-section">
+        <div class="feedback-section__wrapper container">
+          <div class="feedback-section__heading">
+            <h3 class="feedback-section__heading_level-3">TESTIMONIALS</h3>
+            <div class="feedback-section__underline"></div>
+          </div>
+          <div class="feedback-section__col feedback-section__col_left">
+            <p class="feedback-section__paragraph">
+              Vestibulum sed commodo nunc, eu aliquet sem. Curabitur semper, sem
+              ut posuere tincidunt, sem velit sollicitudin odio, quis hendrerit
+              sapien nunc sit amet sem. Ut sollicitudin dignissim ligula nec
+              porta.
+            </p>
+            <p class="feedback-section__author">Robert Shapiro, CEO of trulr</p>
+          </div>
+          <div class="feedback-section__col feedback-section__col_right">
+            <p class="feedback-section__paragraph">
+              Curabitur semper, sem ut posuere tincidunt, sem velit sollicitudin
+              odio, quis hendrerit sapien nunc sit amet sem. Ut sollicitudin
+              dignissim ligula nec porta.
+            </p>
+            <p class="feedback-section__author">
+              Lila stokinova, designer at nike
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper container">
+        <span class="footer__trademark">2014 Stone Creative Agency</span>
+        <a href="#" class="footer__button">GET IN TOUCH WITH US</a>
+        <span class="footer__address">1423 Elk St, Brooklyn NY, 82328</span>
+      </div>
+    </footer>
   </body>
 </html>
