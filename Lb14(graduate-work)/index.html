@@ -12,11 +12,12 @@
     <header class="header">
       <!-- NAVIGATION -->
       <nav class="header__navigation navigation container">
-        <img
-          src="./pages/main/img-main/logo.png"
-          alt="Not found"
-          class="navigation__logo"
-        />
+        <a href="./index.html" class="navigation__logo-link"
+          ><img
+            src="./pages/main/img-main/logo.png"
+            alt="Not found"
+            class="navigation__logo"
+        /></a>
         <div class="navigation__content">
           <ul class="navigation__list">
             <li class="navigation__item">
@@ -29,7 +30,9 @@
               <a href="#" class="navigation__link">Connect a wallet</a>
             </li>
             <li class="navigation__item">
-              <a href="#" class="navigation__link_sign-up">Sign Up</a>
+              <a href="./pages/form/form.html" class="navigation__link_sign-up"
+                >Sign Up</a
+              >
             </li>
           </ul>
           <div class="navigation__side">
@@ -51,7 +54,11 @@
                 <a href="#" class="navigation__side-link">Connect a wallet</a>
               </li>
               <li class="navigation__side-item">
-                <a href="#" class="navigation__side-link_sign-up">Sign up</a>
+                <a
+                  href="./pages/form/form.html"
+                  class="navigation__side-link_sign-up"
+                  >Sign up</a
+                >
               </li>
             </ul>
           </div>
@@ -699,7 +706,7 @@
                 <input
                   type="email"
                   required
-                  value="Enter your email here"
+                  placeholder="Enter your email here"
                   class="subscribe__input-subscription"
                 />
                 <button class="subscribe__input-button" type="submit">
@@ -774,7 +781,7 @@
               <input
                 type="email"
                 required
-                value="Enter your email here"
+                placeholder="Enter your email here"
                 class="footer__input-subscription"
               />
               <button class="footer__input-button" type="submit">
